@@ -3,13 +3,13 @@
 ## Why Whiteboard Problems?
 
  Why do companies whiteboard?
-* Steps to solving whiteboarding questions are identical to the steps necessary to solve real-world practical problems
+* Steps to solving whiteboarding questions are similar to the steps necessary to solve real-world practical problems
 * Companies want to see how you perform as a team member in a real team
 
  Things the interviewer will be looking for:
 * Can you think algorithmically? Can you think about efficiency?
 * Are you a good communicator? Are you someone I want to think through a new feature with?
-* Can you code? Can you code neatly and correctly?
+* Can you code? Can you code neatly, with proper syntax?
 
 ## Correct steps
 
@@ -29,17 +29,17 @@
 
 ### Test I/O
 
- You should start with simple inputs and then slowly build up size or complexity of inputs. Look for patterns and things that reminds you of problems you know how to solve.
+ You should start with simple inputs and then slowly build up size or complexity of inputs. Look for patterns and things that remind you of problems you know how to solve.
 
- If you draw a blank
+ If you draw a blank:
 * Make up a sample input and compute it. Do this two or three times.
-* Go through data structures in your head. Go through algorithms you know simutaneously. If you find one that works for this problem, run with it.
+* Go through data structures in your head. Go through algorithms you know simultaneously. If you find one that works for this problem, run with it.
 * If not, find a naive solution, any solution, to get started. Then you can optimize.
 * Come up with a simpler version of the problem, solve it, then progressively add complexity.
 * Think aloud about the likely bounds on efficiency for your solution.
     * This is an easy way to score points.
-    * "What's sure is I'll have to iterate through all the points, so it's at least linear time."
-    * "The problem is trivial when the set is sorted. So it can definitely be done in nLOGn time. Let's see if we can do better than n Log n."
+    * "I'll have to iterate through all the points, so it's at least linear time."
+    * "The problem is trivial when the set is sorted. So it can definitely be done in n Log n time. Let's see if we can do better than n Log n."
 
 ## Pseudocode
 
@@ -52,7 +52,7 @@
 
 ## During the Problem
 
- At this point, you should have spend at least 60% of your time. If you sprinted to coding, you most likely didn't spend enough time planning and will struggle here. If planned properly, this section should be the easiest part.
+ At this point, you should have spent at least 60% of your allotted time. If you sprinted to coding, you most likely didn't spend enough time planning and will struggle here. If planned properly, this section should be the easiest part.
 
 * The nice thing about white boards is you and the interviewer are facing the same direction.
 * Convince yourself that you are solving the problem together. Say "we" instead of "I".
@@ -87,7 +87,8 @@
 
 ## Time and space complexity
 
- * You should know how to do this - refer back to Big O reading if you need to.
+ You should know this already - please refer back to the reading for time and space complexity if you need to.
+ 
  * Remember time is expensive and space is cheap.
  * If your approach is naive, attempt to optimize.
  * If not, ask your interviewer if they'd like you to optimize.
@@ -100,7 +101,7 @@
     * Ex: Sort an array of 100,000 integers that are all in the range 1-100
 2. Dynamic programming, or "divide and conquer": Divide into smaller and smaller but equal subproblems.
     * Ex: See [this solution][dynamic-programming-ex] for a Google interview question.
-3. Look for useful mathematical properties.
+3. Look for useful mathematic properties.
     * Sometimes you have individual values when really what you care about is their sums.
     * Ex: For an array of integers 1 - 100 where all elements appear once except one that appears twice, find the repeat.
 4. [Amortized analysis][amortized-analysis]: it's ok to do something memory- or space-intensive if you can prove that this cost comes with a greater payoff.
