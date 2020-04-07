@@ -1,5 +1,8 @@
 # Tips for Solving Whiteboard problems
 
+## [Video Lecture][video-lecture]
+[video-lecture]: https://vimeo.com/385340560/b592c54e6f
+
 ## Why Whiteboard Problems?
 
  Why do companies whiteboard?
